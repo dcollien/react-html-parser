@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "clean": "rimraf coverage dist lib",
     "check": "npm run lint && npm run test",
     "test": "karma start --single-run",
